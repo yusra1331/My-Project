@@ -73,8 +73,8 @@ float currentTemperature;
 float lux;
 String Message="";
 
-#define BOTtoken "6395601481:AAEU0pBS0eHl_VsY-IAgkaH8zU39q0kJcwI"
-#define CHAT_ID "956460426"
+#define BOTtoken "xxxxxxxx" //telegram bot
+#define CHAT_ID "xxxxx"
 
 WiFiClientSecure client2;
 UniversalTelegramBot bot(BOTtoken, client2);
