@@ -22,9 +22,9 @@
 #define RelayPump1_PIN 26  // ESP32 pin GIOP32 (ADC0) that connects to Relay 1
 #define THRESHOLD 50       // CHANGE YOUR THRESHOLD HERE
 
-#define API_KEY "AIzaSyB22w5g7IEyUC3WABsjlTC4ZkiNhiMP7Oc"
-#define USER_EMAIL "yusra_athirah_bi20@iluv.ums.edu.my"
-#define USER_PASSWORD "#UMS000106030786"
+#define API_KEY "xxxxxx"
+#define USER_EMAIL "xxxxxxx"
+#define USER_PASSWORD "xxxxxxxx"
 #define DATABASE_URL "https://fyp3-4bcb1-default-rtdb.asia-southeast1.firebasedatabase.app/"
 
 FirebaseData fbdo;
@@ -36,14 +36,14 @@ DallasTemperature sensors(&oneWire);
 BH1750 lightMeter;
 
 // Replace with your network credentials
-const char* ssid = "vivo Y33s";
-const char* password = "12345678";
+const char* ssid = "xxxxxxxxx";
+const char* password = "xxxxxxxxxx";
 
 WiFiServer server(80);
 WiFiClient  client;
 
 unsigned long myChannelNumber = 5;
-const char * myWriteAPIKey = "LZE5ZW14P9JG2D66";   //  Enter your Write API key from ThingSpeak
+const char * myWriteAPIKey = "xxxxxxxxxx";   //  Enter your Write API key from ThingSpeak
 
 unsigned long channelId = 2394743;
 unsigned long previousMillis = 0;
